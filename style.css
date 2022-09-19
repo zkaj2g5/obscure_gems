@@ -1,0 +1,86 @@
+.fa fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.splash {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  width: 50%;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.message {
+  max-width: 500px;
+  color: whitesmoke;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 120%;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+a:link {
+  color: #241571;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
